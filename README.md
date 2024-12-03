@@ -28,7 +28,7 @@ This Python script analyzes web server log files to extract and analyze key info
 1. Save your web server log file (e.g., `sample.log`) in the project directory.
 2. Run the script using the command:
     ```bash
-    python log_analysis.py sample.log
+    python log_analysis.py
     ```
 
 3. The script will display the following information in the terminal:
