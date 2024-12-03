@@ -40,3 +40,8 @@ This Python script analyzes web server log files to extract and analyze key info
    - **Requests per IP**: Columns: `IP Address`, `Request Count`
    - **Most Accessed Endpoint**: Columns: `Endpoint`, `Access Count`
    - **Suspicious Activity**: Columns: `IP Address`, `Failed Login Count`
+
+## Example Output
+
+Terminal Output:
+![image](https://github.com/user-attachments/assets/3abb68cd-1c1a-4c20-a52d-5ad058d9f46d)
