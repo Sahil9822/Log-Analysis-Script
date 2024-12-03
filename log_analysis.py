@@ -92,7 +92,7 @@ def main():
     # Save results to CSV
     output_file = 'log_analysis_results.csv'
     save_to_csv(ip_counts, most_accessed_endpoint, suspicious_activity, output_file)
-    print(f"\nResults saved to {output_file}")
+    print(f"\nResult save to {output_file}")
 
 if __name__ == "__main__":
     main()
