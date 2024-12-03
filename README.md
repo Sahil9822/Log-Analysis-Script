@@ -22,3 +22,21 @@ This Python script analyzes web server log files to extract and analyze key info
      - **Requests per IP**
      - **Most Accessed Endpoint**
      - **Suspicious Activity**
+
+## Usage
+
+1. Save your web server log file (e.g., `sample.log`) in the project directory.
+2. Run the script using the command:
+    ```bash
+    python log_analysis.py sample.log
+    ```
+
+3. The script will display the following information in the terminal:
+   - Request count per IP address.
+   - Most frequently accessed endpoint.
+   - Suspicious activity detected based on failed login attempts.
+
+4. The results will also be saved in a CSV file named `log_analysis_results.csv` with the following structure:
+   - **Requests per IP**: Columns: `IP Address`, `Request Count`
+   - **Most Accessed Endpoint**: Columns: `Endpoint`, `Access Count`
+   - **Suspicious Activity**: Columns: `IP Address`, `Failed Login Count`
